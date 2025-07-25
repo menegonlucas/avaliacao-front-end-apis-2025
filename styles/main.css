@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +7,9 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #181c23;
-  color: #e9ecef;
+  font-family: 'Playfair Display', serif;
+  background-color: #f4f4f9;
+  color: #1a1a1a;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -16,13 +18,12 @@ body {
 }
 
 .container {
-  background-color: #232a34;
+  background-color: #ffffff;
   padding: 32px 44px;
   border-radius: 14px;
-  box-shadow: 0 8px 24px rgba(24, 28, 35, 0.25);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   width: 100%;
   max-width: 520px;
-  box-sizing: border-box;
 }
 
 h1 {
@@ -30,7 +31,7 @@ h1 {
   font-size: 2rem;
   margin-bottom: 24px;
   text-align: center;
-  color: #3fa7d6;
+  color: #7b2cbf;
   letter-spacing: 1px;
 }
 
@@ -39,48 +40,48 @@ input[type="password"],
 input[type="search"] {
   padding: 14px 16px;
   border-radius: 8px;
-  border: 1px solid #2d3748;
+  border: 1px solid #ccc;
   font-size: 1rem;
   outline: none;
-  background-color: #232a34;
-  color: #e9ecef;
+  background-color: #ffffff;
+  color: #1a1a1a;
   transition: border-color 0.3s, background-color 0.3s;
 }
 
 input::placeholder {
-  color: #b0b8c1;
+  color: #999;
 }
 
 input:focus {
-  background-color: #21262e;
-  border-color: #3fa7d6;
-  color: #e9ecef;
+  background-color: #f0f0f5;
+  border-color: #7b2cbf;
+  color: #1a1a1a;
   font-weight: 600;
 }
 
 button {
-  background: #3fa7d6;
+  background: #7b2cbf;
   border: none;
-  color: #181c23;
+  color: #ffffff;
   font-weight: 700;
   padding: 14px;
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.25s, color 0.25s;
-  box-shadow: 0 4px 12px rgba(63, 167, 214, 0.15);
+  box-shadow: 0 4px 12px rgba(123, 44, 191, 0.15);
   font-size: 1.1rem;
 }
 
 button:hover,
 button:focus {
-  background: #226089;
+  background: #9d4edd;
   color: #fff;
   outline: none;
-  box-shadow: 0 6px 18px rgba(34, 96, 137, 0.18);
+  box-shadow: 0 6px 18px rgba(157, 78, 221, 0.18);
 }
 
 .error-message {
-  color: #e74c3c;
+  color: #d7263d;
   margin-top: 10px;
   text-align: center;
   font-weight: 600;
@@ -89,7 +90,7 @@ button:focus {
 .header h1 {
   margin: 0;
   font-size: 1.8rem;
-  color: #3fa7d6;
+  color: #7b2cbf;
 }
 
 .posts-grid {
@@ -99,13 +100,13 @@ button:focus {
 }
 
 .post-card {
-  background-color: #21262e;
+  background-color: #e0e6ed;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 16px rgba(24, 28, 35, 0.18);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, transform 0.2s;
-  color: #e9ecef;
+  color: #1a1a1a;
   font-weight: 600;
   font-size: 1rem;
   display: flex;
@@ -116,8 +117,8 @@ button:focus {
 }
 
 .post-card:hover {
-  background-color: #3fa7d6;
-  color: #181c23;
+  background-color: #7b2cbf;
+  color: #ffffff;
   transform: translateY(-5px);
 }
 
@@ -127,7 +128,7 @@ button:focus {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(24, 28, 35, 0.92);
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,13 +136,13 @@ button:focus {
 }
 
 .modal-content {
-  background-color: #232a34;
+  background-color: #ffffff;
   border-radius: 14px;
   padding: 32px 44px;
   max-width: 520px;
   width: 90%;
-  box-shadow: 0 10px 40px rgba(24, 28, 35, 0.35);
-  color: #e9ecef;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  color: #1a1a1a;
   position: relative;
 }
 
@@ -152,19 +153,19 @@ button:focus {
   font-size: 2rem;
   font-weight: 700;
   cursor: pointer;
-  color: #3fa7d6;
+  color: #7b2cbf;
   transition: color 0.2s;
 }
 
 .close:hover {
-  color: #226089;
+  color: #9d4edd;
 }
 
 #modal-title {
   margin-bottom: 15px;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #3fa7d6;
+  color: #7b2cbf;
 }
 
 #modal-body {
